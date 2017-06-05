@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Andrea Jane Yee | UI/UX Designer/Netflix Queen</title>
+        <meta name="author" content="AJY">
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/animsition.js"></script>
+    </head>
+    <body>
+        <div class="fullpage" id="nav-guide" data-ibg-bg="assets/background/star_background.png">
+            <div class="nav-guide-container">
+                <ul class="nav-guide-ul animsition">
+                    <li id="product-btn" class="react animsition-link" onclick="showProduct()">Product</li>
+                    <li id="process-btn" class="react animsition-link" onclick="showProcess()" >Process</li>
+                    <li id="report-btn" class="react animsition-link" onclick="showReport()">Report</li>
+                    <li id="output-btn" class="react animsition-link" onclick="showOutputs()">Outputs</li>
+                </ul>
+            </div>
+            <div class="scroll-down-btn" id="scroll-btn">
+                <p id="scroll-text">About me</p>
+                <img id="scroll-img" src="assets/icons/scroll-arrow-to-down.png">
+            </div>
+        </div>
+        <div class="fullpage" id="about">
+            <div id="background">
+                <p>sup girl</p>
+            </div>
+            <div class="about-container">
+                <div id="about-wrapper">
+                    <div class="about-column">
+                        <h6 class="about-titles">About</h6>
+                        <p>My name is Andrea. I'm a UI/UX designer in Brisbane. I'm in my last semester of a Multimedia Design degree at The University of Queensland. I specialize in user interfaces and user experience design, branding, and front-end development.</p>
+                        <h6 class="about-titles">Skills</h6>
+                        <p>Illustrator, InDesign, Photoshop, HTML5, CSS3, Sass, JavaScript, JQuery, JavaFX (not that great at Java), sewing, embroidery, ...<br>Currently learning Angular.js and Gulp.js</p>
+                    </div>
+                    <div class="about-column">
+                        <h6 class="about-titles">Portfolio</h6>
+                        <p>Check out my actual portfolio here.</p>
+                        <h6 class="about-titles">Contact</h6>
+                        <p>Chuck me an <a href="mailto:andreajaneyee@gmail.com" target="_top">email.</a></p>
+                        <h6 class="about-titles">Social Media</h6>
+                        <p>Or you could say hi to me on:</p>
+                    <ul class="list-socialmedia">
+                        <li><a><img src="assets/icons/instagram-with-circle.png"</a></li>
+                        <li><a><img src="assets/icons/github-with-circle.png"</a></li>
+                        <li><a><img src="assets/icons/linkedin-with-circle.png"</a></li>
+                    </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-up-btn" id="scroll-btn">
+                <p id="scroll-text">Back to the top!</p>
+                <img id="scroll-img" src="assets/icons/scroll-arrow-to-up.png">
+            </div>
+        </div>       
+        <div id="product">
+            <div class="back-btn">back</div>
+            <div class="title-div">
+                <h1 class="title">Spandx</h1>
+            </div>
+            <div class="content-div">
+                <div class="content-wrapper">
+                    <p>SpandX is a new and visual way of teaching the basic concept of the heliocentric model in which the earth and all other planets revolve around the sun.  This digital solar system is projected onto the spandex surface so the user can watch any changes that happen when they interact with it. When a user pushes down on the spandex surface, the Kinect senses how hard the user is pushing and translates that by increasing the mass of the sun which also increases its speed and gravity.</p>
+                    <h2 class="headings">Who is it for?</h2>
+                    <h2 class="headings">How does it work?</h2>
+                    <p>Over the semester, we’ve developed a simulated solar system through Unity that can be manipulated. We combined that with a Kinect sensor, projector, and a table with a stretchy spandex surface to create a learning tool that allows for kinesthetic and visual learning.</p>
+                </div>
+            </div>
+            <div class="next-page">
+                <div id="process-next" class="next-hover-title" onclick="showProcess()">process</div>
+                <div class="next-btn">Next page</div>
+            </div>
+        </div>
+        </div>
+        <div id="process">
+            <div class="back-btn">back</div>
+            <div class="title-div">
+                <h1 class="title">Process</h1>
+            </div>
+            <div class="content-div">
+                <div class="content-wrapper">
+                    <h2 class="headings">Design Process</h2>
+                    <p>SpandX is a new and visual way of teaching the basic concept of the heliocentric model in which the earth and all other planets revolve around the sun.  This digital solar system is projected onto the spandex surface so the user can watch any changes that happen when they interact with it. When a user pushes down on the spandex surface, the Kinect senses how hard the user is pushing and translates that by increasing the mass of the sun which also increases its speed and gravity.</p>
+                    <h2 class="headings">Who is it for?</h2>
+                    <h2 class="headings">How does it work?</h2>
+                    <p>Over the semester, we’ve developed a simulated solar system through Unity that can be manipulated. We combined that with a Kinect sensor, projector, and a table with a stretchy spandex surface to create a learning tool that allows for kinesthetic and visual learning.</p>
+                </div>
+            </div>
+            <div class="next-page" onclick="showProcess()">
+                <div id="process-next" class="next-hover-title">report</div>
+                <div class="next-btn">Next page</div>
+            </div>
+        </div>
+        <div id="report">
+            <div class="back-btn">back</div>
+            <div class="title-div">
+                <h1 class="title">Report</h1>
+            </div>
+            <div class="content-div">
+                <div class="content-wrapper">
+                    <h2 class="headings">Link to me report</h2>
+                    <p style="text-align:center;"><a href="#">Hey girl how you doin</p></a>
+                </div>
+            </div>
+            <div class="next-page" onclick="showProcess()">
+                <div id="process-next" class="next-hover-title">outputs</div>
+                <div class="next-btn">Next page</div>
+            </div>
+        </div>
+        <div id="outputs">
+            <div class="back-btn">back</div>
+            <div class="title-div">
+                <h1 class="title">Outputs</h1>
+            </div>
+            <div class="content-div">
+                <div class="content-wrapper">
+                    <h2 class="headings">Link to </h2>
+                    <p>Over the semester, we’ve developed a simulated solar system through Unity that can be manipulated. We combined that with a Kinect sensor, projector, and a table with a stretchy spandex surface to create a learning tool that allows for kinesthetic and visual learning.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
