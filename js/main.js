@@ -36,15 +36,28 @@ $(document).ready(function(){
     });
     
     $('#process-next').click(function() {
+            
             $('#product').fadeOut(500);
             $('#process').fadeIn(500);
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1000);
+        
     });
     $('#report-next').click(function() {
+            
             $('#process').fadeOut(500);
             $('#report').fadeIn(500);
+        $('html, body').animate({
+                scrollTop: 0
+            }, 1000);
     });
     $('#output-next').click(function() {
+            
             $('#report').fadeOut(500);
             $('#outputs').fadeIn(500);
+        $('html, body').animate({
+                scrollTop: 0
+            }, 1000);
     });
 });
