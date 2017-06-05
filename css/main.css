@@ -12,9 +12,6 @@ body::-webkit-scrollbar-thumb{
     background-color: #222222;
     border-radius: 5px;
 }
-body::-webkit-scrollbar-button{
-    background-color: rgba(23, 23, 23, 0.36);
-}
 .fullpage{
     height: 100vh;
     width: 100%;
@@ -58,11 +55,8 @@ a{
     transition:all 0.8s ease;
 }
 .react:hover{
-    color: aliceblue;
+    color: #FFF;
     cursor: pointer;
-}
-.test{
-    background-color: aqua;
 }
 .scroll-btn{
     cursor: pointer;
@@ -72,7 +66,7 @@ a{
     text-align: center;
     bottom:0;
     position: absolute;
-    color: aliceblue;
+    color: #FFF;
     margin: 1.5vh 0;
 }
 .scroll-up-btn{
@@ -191,17 +185,17 @@ a{
 .content-div{
     background-color: #FFF;
     width: 90%;
-    margin: -10vh auto 0 auto;
+    margin: -15vh auto 0 auto;
 }
 .content-wrapper{
-    margin: 8%;
+    padding: 8%;
 }
 .content-wrapper p{
     line-height: 6vh;
     font-weight: 200;
 }
 .back-btn{
-    margin:2%;
+    padding:2%;
     align-self: flex-start;
     max-width: 40%;
     color: aliceblue;
@@ -214,9 +208,9 @@ a{
     text-transform: uppercase;
 }
 .title{
+    text-align: center;
     color: #FFF;
     font-size: 30vh;
-    margin-top: 5vh;
 }
 .headings{
     font-weight: 300;

@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $("#nav-guide").interactive_bg();
     $(".react").interactive_bg({
-         strength: 5,
-         scale: 1,
+         strength: 10,
+         scale: 1.05,
          contain: false,
          wrapContent: true,
          animationSpeed: "250ms" 
@@ -17,26 +17,34 @@ $(document).ready(function(){
       $('html, body').animate({scrollTop: $('#nav-guide').offset().top }, 'slow');
       return false;
     });
+    
+    $('#product-btn').click(function() {
+            $('#nav-guide, #about').fadeOut(500);
+            $('#product').fadeIn(700);
+    });
+    $('#process-btn').click(function() {
+            $('#nav-guide, #about').fadeOut(500);
+            $('#process').fadeIn(700);
+    });
+    $('#report-btn').click(function() {
+            $('#nav-guide, #about').fadeOut(500);
+            $('#report').fadeIn(700);
+    });
+    $('#output-btn').click(function() {
+            $('#nav-guide, #about').fadeOut(500);
+            $('#outputs').fadeIn(700);
+    });
+    
+    $('#process-next').click(function() {
+            $('#product').fadeOut(500);
+            $('#process').fadeIn(500);
+    });
+    $('#report-next').click(function() {
+            $('#process').fadeOut(500);
+            $('#report').fadeIn(500);
+    });
+    $('#output-next').click(function() {
+            $('#report').fadeOut(500);
+            $('#outputs').fadeIn(500);
+    });
 });
-
-var showProduct = function(){
-    $("#product").css("display", "flex");
-    $("#nav-guide").css("display", "hidden");
-    $("#nav-guide").css("visibility", "none");
-    $("#process","#about").css("display", "hidden");
-}
-var showProcess = function(){
-    $("#product").css("display", "hidden");
-    $("#nav-guide").css("display", "hidden");
-    $("#process").css("display", "flex");
-}
-var showReport = function(){
-    $("#product").css("display", "hidden");
-    $("#nav-guide").css("display", "hidden");
-    $("#report").css("display", "flex");
-}
-var showOutputs = function(){
-    $("#product").css("display", "hidden");
-    $("#nav-guide").css("display", "hidden");
-    $("#outputs").css("display", "flex");
-}
