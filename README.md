@@ -5,4 +5,4 @@ A portfolio for my university course [DECO3850](https://www.uq.edu.au/study/cour
 
 Developed with HTML5, CSS3, JavaScript, and JQuery.
 
-NOTE: This is not a mobile-responsive website. Just wanted to get it over and done with to get graded.
+NOTE: This is not a mobile-responsive website. 

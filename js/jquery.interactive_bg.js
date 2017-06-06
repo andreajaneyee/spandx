@@ -51,7 +51,7 @@
       
       if (el.data("ibg-bg") !== undefined) {
         el.find("> .ibg-bg").css({
-          background: "url('" + el.data("ibg-bg") + "') no-repeat center center",
+          background: "url('" + el.data("ibg-bg") + "') no-repeat center center fixed",
           "background-size": "cover"
         });
       }
