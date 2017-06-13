@@ -20,6 +20,10 @@ body::-webkit-scrollbar-thumb{
 a{
     cursor: pointer;
     text-decoration: none;
+    transition:all 0.3s ease-in-out;
+}
+a:hover{
+    color: #ff7c93;   
 }
 #nav-guide{
     display: -webkit-flex;
@@ -68,6 +72,7 @@ a{
     position: absolute;
     color: #FFF;
     margin: 1.5vh 0;
+    cursor: pointer;
 }
 .scroll-up-btn{
     text-align: center;
@@ -188,6 +193,11 @@ a{
     width: 90%;
     margin: -15vh auto 0 auto;
 }
+.references{
+    text-align: right;
+    color: grey;
+}
+.video-wrapper{text-align: center;}
 .content-wrapper{
     padding: 8%;}
 .content-wrapper p{
@@ -199,11 +209,10 @@ a{
     max-width: 40%;
     color: aliceblue;
     text-transform: uppercase;}
-.back-btn a{
-    color: aliceblue;}
 .title, .next-hover-title, .next-btn{
     text-transform: uppercase;}
 .title{
+    margin: 0;
     text-align: center;
     color: #FFF;
     font-size: 30vh;}
