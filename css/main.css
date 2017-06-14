@@ -219,6 +219,15 @@ a:hover{
 .headings{
     font-weight: 300;
     text-align: center;}
+.team{
+    display: flex;
+    flex-direction: row;}
+#team-profiles{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;}
 span{
     letter-spacing: 0.05;
     font-size: 3vh;
