@@ -18,12 +18,17 @@ body::-webkit-scrollbar-thumb{
     display: flex;
 }
 a{
+    color: aliceblue;
     cursor: pointer;
     text-decoration: none;
     transition:all 0.3s ease-in-out;
 }
-a:hover{
+a:hover, .about-column a:hover, .content-wrapper a:hover{
     color: #ff7c93;   
+}
+.about-column a, .content-wrapper a{
+    color: black;
+    transition:all 0.3s ease-in-out;
 }
 #nav-guide{
     display: -webkit-flex;
@@ -221,13 +226,19 @@ a:hover{
     text-align: center;}
 .team{
     display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+    flex-wrap: wrap;}
 #team-profiles{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;}
+#team-profiles img{
+    align-self: center;
+    width: 25vh;
+    height: auto;
+}
 span{
     letter-spacing: 0.05;
     font-size: 3vh;
